@@ -450,9 +450,7 @@ body, ul{
     background-repeat: no-repeat;
     background-position: bottom center;
     padding-top: 96px;
-    /* width: 1920px;
-    height: 1180px; */
-//background-size: cover;
+    background-size: cover;
 }
 
 .footer__inner{

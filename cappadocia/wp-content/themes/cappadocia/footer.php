@@ -18,17 +18,18 @@
                 <div class="footer__contacts-title">
                     Contacts
                 </div>
-                <a class="footer__phone" href="tel:+380665557776">+38(066)555-777-6</a>
+                <a class="footer__phone" href="tel:<?php the_field("phone_number_back_end", 2); ?>"><?php the_field("phone_number"); ?></a>
                 <br>
-                <a class="footer__email" href="mailto:сappadocia.tours@gmail.com">сappadocia.tours@gmail.com</a>
+                <a class="footer__email" href="mailto:<?php the_field("email", 2); ?>"><?php the_field("email"); ?></a>
+
                 <div class="footer__social">
-                    <a class="footer__social-link" href="#">
+                    <a class="footer__social-link" href="<?php the_field("link_youtube", 2); ?>">
                         <img src="<?php echo bloginfo('template_url');?>/assets/images/youtube.svg" alt="">
                     </a>
-                    <a class="footer__social-link" href="#">
+                    <a class="footer__social-link" href="<?php the_field("link_facebook", 2); ?>">
                         <img src="<?php echo bloginfo('template_url');?>/assets/images/facebook.svg" alt="">
                     </a>
-                    <a class="footer__social-link" href="#">
+                    <a class="footer__social-link" href="<?php the_field("link_inst", 2); ?>">
                         <img src="<?php echo bloginfo('template_url');?>/assets/images/instagram.svg" alt="">
                     </a>
                 </div>
